@@ -1,6 +1,4 @@
-FROM node:14
 
-WORKDIR /usr/src/app
 
 # Copy package.json and install dependencies
 COPY package*.json ./
